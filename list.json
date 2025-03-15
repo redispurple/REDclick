@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Placeholder1",
+      "url": "https://example.com/ad1",
+      "picture": "https://example.com/ad1.jpg",
+      "importance": 5
+    },
+    {
+      "name": "Placeholder2",
+      "url": "https://example.com/ad2",
+      "picture": "https://example.com/ad2.jpg",
+      "importance": 10
+    }
+  ]
