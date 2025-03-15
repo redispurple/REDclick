@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     adDivs.forEach(div => {
       const ad = getRandomAd(ads);
       div.innerHTML = `
-        <a href="${ad.url}" target="_blank">
+        <a href="${ad.url}" target="_blank" id="adPopup">
           <img src="${ad.picture}" alt="${ad.name}" style="max-width:300px; max-height:250px;" />
         </a>
       `;
