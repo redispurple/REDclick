@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async function() {
   const adDivs = document.querySelectorAll(".redAd");
   try {
-    const response = await fetch("list.json");
+    const response = await fetch("https://cdn.jsdelivr.net/gh/redispurple/REDclick@78987061f16d31e2c3eb5a42dcd32aaf6c6a8444/list.json"); // Update to the newest list.json permalink
     const ads = await response.json();
     
     
